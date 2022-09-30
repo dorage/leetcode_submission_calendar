@@ -2,6 +2,10 @@ const { DATE_VARS } = require('../vars/date');
 
 const dayToNumber = (n) => n * 24 * 60 * 60 * 1000;
 
+/**
+ * UTC 기준 자정의 시각을 구합니다.
+ * @returns
+ */
 const getTodayDate = () => {
     const now = new Date(Date.now());
     // GMT-0 기준 시간 => GMT+9으로 나옴
