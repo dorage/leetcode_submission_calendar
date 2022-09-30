@@ -59,6 +59,8 @@ exports.getSubmissionCalendar = async (req, res) => {
     const { userId } = req.params;
     const { submissionCalendar } = await getLeetCodeProfile(userId);
     const calendar = getHalfYearCalendar();
-    //res.send({ submissionCalendar, calendar });
-    res.send(makeCalendar(calendar, submissionCalendar));
+
+    res.header({ 'Content-Type': 'image/svg+xml' }).send(
+        makeCalendar(calendar, submissionCalendar)
+    );
 };
