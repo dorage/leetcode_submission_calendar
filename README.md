@@ -16,7 +16,7 @@ Leetcode 최근 180일의 Submit 기록을 나타내는 캘린더입니다.
 
 ```
 <p align = "center">
-  <img src = "https://rocky-caverns-12042.herokuapp.com/USER_NAME?color={COLOR}">
+  <img src = "https://rocky-caverns-12042.herokuapp.com/calendar/USER_NAME?color={COLOR}">
 </p>
 ```
 
