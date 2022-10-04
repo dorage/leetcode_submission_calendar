@@ -28,7 +28,7 @@ Leetcode 최근 180일의 Submit 기록을 나타내는 캘린더입니다.
 
 | Query          | Preview                                                                        |
 | -------------- | ------------------------------------------------------------------------------ |
-| Blue (Default) | <img src = "https://rocky-caverns-12042.herokuapp.com/calendar/kang_hyun?color=blue">   |
+| Blue (Default) | <img src = "https://rocky-caverns-12042.herokuapp.com/calendar/kang_hyun">   |
 | Red            | <img src = "https://rocky-caverns-12042.herokuapp.com/calendar/kang_hyun?color=red">    |
 | Green          | <img src = "https://rocky-caverns-12042.herokuapp.com/calendar/kang_hyun?color=green">  |
 | Purple         | <img src = "https://rocky-caverns-12042.herokuapp.com/calendar/kang_hyun?color=purple"> |
